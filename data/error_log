@@ -1,0 +1,20 @@
+[11-Jan-2023 08:10:23 UTC] PHP Warning:  include(header.php): Failed to open stream: No such file or directory in /home/crsorgov/public_html/ucl/data/editapplication.php on line 2
+[11-Jan-2023 08:10:23 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/crsorgov/public_html/ucl/data/editapplication.php on line 2
+[11-Jan-2023 08:10:23 UTC] PHP Warning:  Undefined variable $_SESSION in /home/crsorgov/public_html/ucl/data/editapplication.php on line 3
+[11-Jan-2023 08:10:23 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/crsorgov/public_html/ucl/data/editapplication.php on line 3
+[11-Jan-2023 08:10:30 UTC] PHP Warning:  include(header.php): Failed to open stream: No such file or directory in /home/crsorgov/public_html/ucl/data/viewcust.php on line 2
+[11-Jan-2023 08:10:30 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/crsorgov/public_html/ucl/data/viewcust.php on line 2
+[11-Jan-2023 08:10:30 UTC] PHP Warning:  Undefined variable $conn in /home/crsorgov/public_html/ucl/data/viewcust.php on line 7
+[11-Jan-2023 08:10:30 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/crsorgov/public_html/ucl/data/viewcust.php:7
+Stack trace:
+#0 /home/crsorgov/public_html/ucl/data/viewcust.php(7): mysqli_query()
+#1 {main}
+  thrown in /home/crsorgov/public_html/ucl/data/viewcust.php on line 7
+[11-Jan-2023 08:14:35 UTC] PHP Warning:  include(header.php): Failed to open stream: No such file or directory in /home/crsorgov/public_html/ucl/data/viewcust.php on line 2
+[11-Jan-2023 08:14:35 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/crsorgov/public_html/ucl/data/viewcust.php on line 2
+[11-Jan-2023 08:14:35 UTC] PHP Warning:  Undefined variable $conn in /home/crsorgov/public_html/ucl/data/viewcust.php on line 7
+[11-Jan-2023 08:14:35 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/crsorgov/public_html/ucl/data/viewcust.php:7
+Stack trace:
+#0 /home/crsorgov/public_html/ucl/data/viewcust.php(7): mysqli_query()
+#1 {main}
+  thrown in /home/crsorgov/public_html/ucl/data/viewcust.php on line 7
